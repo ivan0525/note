@@ -1,6 +1,9 @@
 git checkout -b 分支名
 git log --graph 分支图
 
+git branch -r 查看远端分支
+git branch origin --delete [远端分支名] 删除远端分支
+
 git branch -a 查看分支
 git pull origin dev 本地分支与远程分支相关联
 git pull --rebase
